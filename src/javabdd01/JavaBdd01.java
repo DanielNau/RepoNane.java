@@ -26,7 +26,7 @@ public class JavaBdd01 {
            
            stmt.executeUpdate("delete from usuarios where usuario_id='"+id+"'");
            //insertar datos en una tabla
-           System.out.println("USUARIO DEL!!");
+           System.out.println("INSERT INTO USUARIOS WHERE USUARIOS_ID=");
         
         }catch(Exception ex){
             System.out.println("ERROR:"+ex.getMessage());
